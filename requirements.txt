@@ -1,0 +1,10 @@
+dash[diskcache]~=2.16.1
+dash-ag-grid
+feffery-antd-components
+feffery-utils-components
+feffery-markdown-components
+dash-bootstrap-components
+Flask~=3.0.2
+dash[compress]
+pandas
+pyreadstat

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body,
+.ant-layout-content {
+    background-color: white;
+}
+
+.ant-layout-header {
+    background-color: #1890ff;
+    height:48px;
+}
+
+#app-container {
+    margin: 0;
+    padding: 0;
+    height: calc(100vh);
+    width:100%;
+}
+
+#app-sider{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+}
+
+/*!*Antd Modal 全屏样式*!*/
+/*.ant-modal {*/
+/*    width: 100vw !important;*/
+/*    max-width: 100vw !important;*/
+/*    top: 0;*/
+/*    padding-bottom: 0;*/
+/*}*/
+
+/*.ant-modal-body {*/
+/*    height: calc(100vh - 55px);*/
+/*    overflow-y: auto;*/
+/*}*/
+
+.right-resize-handle:hover, .right-resize-handle:active {
+    background: #007fd4;
+    transition: 0.3s background;
+}
+
+.right-resize-handle {
+    transition: 0.3s background;
+    width: 4px !important;
+    right: -2px !important;
+}
+
+.ant-segmented-item-selected>div{
+}
